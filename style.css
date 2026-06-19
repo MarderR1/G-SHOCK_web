@@ -152,7 +152,7 @@ header {
 .hero {
     position: relative;
     overflow: hidden;
-    padding: 86px 0px;
+    padding: 86px 30px;
     min-height: 100vh;
 }
 
@@ -186,7 +186,7 @@ header {
 }
 
 .hero img {
-    padding-top: 72px;
+    padding-top: 50px;
     max-width: 70%;
     transform: translateY(-10px);
 }

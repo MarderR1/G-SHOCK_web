@@ -131,9 +131,9 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 14px 45px;
-    gap: 270px;
+    
     position: fixed;
     z-index: 1000;
     left: 0;
@@ -174,7 +174,6 @@ header {
 
 
 .header .red-btn:hover {
-    transform: translateY(0px);
     transform: scale(1.05);
 }
 
@@ -706,9 +705,6 @@ header {
         grid-area: info;
     }
 
-    .hero .name {
-        display: none;
-    }
 
     .hero .name {
         font-size: 14px;

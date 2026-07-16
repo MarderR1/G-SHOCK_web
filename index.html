@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <title>G-Shock</title>
 </head>
 <body>
@@ -12,16 +13,15 @@
         <div class="logo"><a href="#"><img src="icons/logo.png" alt="G-Shock logo"></a></div>
         <nav>
             <ul>
-                <li>модель</li>
-                <li>характеристики</li>
-                <li>дизайн</li>
-                <li>технологии</li>
+                <li><a href="#hero">модель</a></li>
+                <li><a href="#features">характеристики</a></li>
+                <li><a href="#benefits">дизайн</a></li>
             </ul>
         </nav>
-        <button class="red-btn">купить</button>
+        <a href="#buy_page" class="red-btn">купить</a>
     </header>
 
-    <section class="hero">
+    <section id="hero" class="hero">
         <video class="hero-bg" autoplay muted loop playsinline>
             <source src="BG/anim-red.mp4" type="video/mp4">
         </video>
@@ -32,8 +32,8 @@
                     <p class="name">GA-2100-4AER</p>
                     <p class="hero-text">Легендарная прочность G-SHOCK в культовом минималистичном дизайне.</p>
                     <div class="hero-btns">
-                        <button class="red-btn">купить</button>
-                        <button class="info-btn">подробнее о модели</button>
+                        <a class="red-btn" href="#buy_page">купить</a>
+                        <a class="info-btn" href="#">подробнее о модели</a>
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
     </section>
     
     
-    <section class="features container">
+    <section id="features" class="features container">
         <h2 class="features-title">ключевые преимущества</h2>
         <div class="features-grid">
             <div class="features-block">
@@ -58,7 +58,7 @@
                 <p>Полная защита от воды при повседневном использовании и активных сценариях.</p>
             </div>
             <div class="features-block">
-                <div class="features-bl-title"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="24" height="24" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="miter" stroke-linecap="square"><polygon points="22,8 42,8 56,22 56,42 42,56 22,56 8,42 8,22"/><polygon points="24.5,14 39.5,14 50,24.5 50,39.5 39.5,50 24.5,50 14,39.5 14,24.5" stroke-width="2"/><circle cx="32" cy="32" r="13" stroke-width="2"/><circle cx="32" cy="32" r="1.6" fill="currentColor" stroke="none"/><g stroke-width="2"><line x1="32" y1="19" x2="32" y2="23"/><line x1="32" y1="41" x2="32" y2="45"/><line x1="19" y1="32" x2="23" y2="32"/><line x1="41" y1="32" x2="45" y2="32"/></g><g fill="currentColor" stroke="none"><circle cx="15" cy="15" r="2.6"/><circle cx="49" cy="15" r="2.6"/><circle cx="15" cy="49" r="2.6"/><circle cx="49" cy="49" r="2.6"/></g></svg>ОКТАГОНАЛЬНЫЙ БЕЗЕЛЬ</div>
+                <div class="features-bl-title"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="24" height="24" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="miter" stroke-linecap="square"><polygon points="22,8 42,8 56,22 56,42 42,56 22,56 8,42 8,22"/><polygon points="24.5,14 39.5,14 50,24.5 50,39.5 39.5,50 24.5,50 14,39.5 14,24.5" stroke-width="2"/><circle cx="32" cy="32" r="13" stroke-width="2"/><circle cx="32" cy="32" r="1.6" fill="currentColor" stroke="none"/><g stroke-width="2"><line x1="32" y1="19" x2="32" y2="23"/><line x1="32" y1="41" x2="32" y2="45"/><line x1="19" y1="32" x2="23" y2="32"/><line x1="41" y1="32" x2="45" y2="32"/></g><g fill="currentColor" stroke="none"><circle cx="15" cy="15" r="2.6"/><circle cx="49" cy="15" r="2.6"/><circle cx="15" cy="49" r="2.6"/><circle cx="49" cy="49" r="2.6"/></g></svg>окта‑безель</div>
                 <p>Узнаваемая геометрия GA-2100, вдохновлённая классической формой G-SHOCK, но в более минималистичном исполнении.</p>
             </div>
             <div class="features-block">
@@ -68,36 +68,62 @@
         </div>
     </section>
 
-    <section class="benefits">
+    <section id="benefits" class="benefits">
         <div class="container">
             <div class="benefits-title">
-                <h2>Дизайн в деталях</h2>
+                <h2>Дизайн <br><span class="ben-active">в деталях</span></h2>
                 <p>Каждый элемент продуман до мелочей</p>
             </div>
             <div class="benefits-grid">
                 <div class="benefit-grid-card">
-                    <img src="images/macro.webp" alt="display_photo">
-                    <h3></h3>
-                    <p></p>
+                    <img src="images/disp.jpg" alt="display_photo">
+                    <h3>Четкий циферблат</h3>
+                    <p>Аналогово-цифровой дисплей для максимальной читаемости.</p>
                 </div>
                 <div class="benefit-grid-card">
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                    <img src="images/btns.jpg" alt="">
+                    <h3>Прочный корпус</h3>
+                    <p>Амированный карбоном корпус устойчив к ударам и нагрузкам.</p>
                 </div>
                 <div class="benefit-grid-card">
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                    <img src="images/band.jpg" alt="">
+                    <h3>Надежный ремешок</h3>
+                    <p>Мягкий и гибкий ремешок для идеальной посадки.</p>
                 </div>
                 <div class="benefit-grid-card">
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                    <img src="images/backside.jpg" alt="">
+                    <h3>Carbon Core Guard</h3>
+                    <p>Максимальная прочность в тонком корпусе.</p>
                 </div>
             </div>
         </div>
     </section>
+
+    <section id="buy_page" class="buy_page">
+        <div class="container">
+            <div class="buy-title">
+                <p>G-SHOCK GA-2100-4AER</p>
+                <h2>созданы,а  чтобы выдерживать всё</h2>
+                <p>Выбери силу. Выери стиль. Выбери G-SHOCK.</p>
+                <div class="buy-title-btns">
+                    <button class="red-btn">купить сейчас</button>
+                    <button class="info-btn">найти в магазинах <img src="icons/gps.svg" alt="" class="gps-icon"></button>
+                </div>
+            </div>
+            <div class="buy-img"><img src="images/paint.png" alt=""></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Все права защищены</p>
+            <nav class="footer-nav">
+            <a href="#">Контакты</a>
+            <a href="#">О нас</a>
+            <a href="#">Политика конфиденциальности</a>
+            </nav>
+        </div>
+    </footer>
 
 
     <script>
@@ -111,6 +137,12 @@
 
         observer.observe(document.querySelector('.features h2'));
         document.querySelectorAll('.features-block').forEach(card => observer.observe(card));
+
+        observer.observe(document.querySelector('.benefits-title'));
+        document.querySelectorAll('.benefit-grid-card').forEach(card => observer.observe(card));
+
+        observer.observe(document.querySelector('.buy-title'));
+        observer.observe(document.querySelector('.buy-img'));
     </script>
 </body>
 </html>
